@@ -11,7 +11,7 @@ setopt SHARE_HISTORY
 export EDITOR=vim
 
 # prompt should be user:directory %
-export PS1="%n:%~ %# "
+export PS1="%n@%m:%~ %# "
 
 # have a timestamp at the end of the line
 export RPS1="[%*]"

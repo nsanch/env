@@ -1,7 +1,7 @@
 export EDITOR=vim
 
 # prompt should be user:directory %
-export PS1="\u:\w \$ "
+export PS1="\u@\h:\w \$ "
 
 # use emacs key bindings like ctrl-r to search backwards in history
 set -o emacs
