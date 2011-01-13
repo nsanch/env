@@ -1,0 +1,11 @@
+[user]
+	name = Neil Sanchala
+	email = nsanch@gmail.com
+[branch]
+	autosetuprebase = always
+
+[merge]
+	log = true
+
+[alias]
+  weekly = "!git log --author=$(whoami) --since=7days"
