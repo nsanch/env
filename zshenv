@@ -8,10 +8,14 @@ export SAVEHIST=10000
 setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
 
+setopt CORRECT
+
 export EDITOR=vim
 
+# prompt should be user@machine:directory %
+# export PS1="%n@m:%~ %# "
 # prompt should be user:directory %
-export PS1="%n@%m:%~ %# "
+export PS1="%n:%~ %# "
 
 # have a timestamp at the end of the line
 export RPS1="[%*]"
