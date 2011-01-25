@@ -491,8 +491,7 @@ let s:tlist_def_yacc_settings = 'yacc;l:label'
 
 " NSANCH - added for scala based on
 " http://stackoverflow.com/questions/3019691/has-anyone-got-the-vim-taglist-plugin-working-with-scala
-let s:tlist_def_scala_settings = 'scala;t:trait;c:class;T:type;' .
-                      \ 'm:method;C:constant;l:local;p:package;o:object
+let s:tlist_def_scala_settings = 'scala;t:trait;c:class;T:type;m:method;C:constant;l:local;p:package;o:object'
 
 "------------------- end of language specific options --------------------
 

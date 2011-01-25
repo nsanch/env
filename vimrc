@@ -61,7 +61,6 @@ set nocursorline
 filetype plugin on
 filetype detect
 
-" TODO: this should go in a non-repo-specific place.
 set tags=tags
 
 map [ :exec("tag ".expand("<cword>"))<CR>
