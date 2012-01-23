@@ -89,3 +89,9 @@ nmap ,a :e <C-R>=substitute(expand("%"), "concrete/Concrete", "", "")<CR><CR>
 ""./web/src/test/scala/com/foursquare/model/VenueTest.scala
 nmap ,t :e <C-R>=substitute(expand("%:p:h"), "/main/", "/test/", "") . "/" . substitute(expand("%:t"), ".scala", "Test.scala", "")<CR><CR>
 nmap ,s :e <C-R>=substitute(expand("%:p:h"), "/test/", "/main/", "") . "/" . substitute(expand("%:t"), "Test.scala", ".scala", "")<CR><CR>
+
+" more mappings from blackmad. treat jj as escape since the escape key is hard
+" to reach
+imap jj <Esc>
+map <F1> <Esc>
+imap <F1> <Esc>
